@@ -1,0 +1,22 @@
+/*This is CSS for index.html, the main home page*/
+
+#mango {
+    color: rgb(228, 160, 34);
+}
+
+#avocado {
+    color: rgb(49, 102, 13);
+}
+
+#quinoa {
+    color: rgb(126, 85, 11);
+}
+
+ol {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+}

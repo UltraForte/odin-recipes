@@ -1,0 +1,26 @@
+/*This is the CSS for the Recipe Pages*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-weight: 520;
+    font-size: 40px;
+}
+h2 {
+    font-weight: 550;
+    font-size: 25px;
+}
+p {
+    font-size: 19px;
+}
+ul, ol {
+    font-size: 19px;
+}
+.enjoy {
+    font-size: 23px;
+}
+img {
+    height: auto;
+    width: 210px;
+}
