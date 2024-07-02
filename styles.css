@@ -1,25 +1,57 @@
 /*This is CSS for index.html, the main home page*/
-
+body {
+    background-color: rgba(240, 243, 230);
+}
+* {
+    box-sizing: border-box;
+}
 #mango {
-    color: rgb(228, 160, 34);
+    color: rgba(240, 243, 230);
+    text-align: center;
+    background-color: #bd5648;
+    padding: 100px 20px;
+    display: inline-block;
+    border: 1px dashed black;
+    margin: 10px;
 }
 
 #avocado {
-    color: rgb(49, 102, 13);
+    color: rgba(240, 243, 230);
+    text-align: center;
+    background-color: #bd5648;
+    padding: 100px 20px;
+    display: inline-block;
+    border: 1px dashed black;
+    margin: 10px;
 }
 
 #quinoa {
-    color: rgb(126, 85, 11);
+    color: rgba(240, 243, 230);
+    text-align: center;
+    background-color:#bd5648 ;
+    padding: 100px 20px;
+    display: inline-block;
+    border: 1px dashed black;
+    margin: 10px;
 }
 
 ol {
     font-size: 18px;
+    margin: 28px;
+    display: flex;
+    background-color: rgb(174, 192, 179);
+    border: solid #bd5648 2px;
+    padding: 20px 30px;
+    /*2 lines below center the numbers of the ordered list*/
+    text-align: center;
+    list-style-position: inside;
+    justify-content: center;
 }
 
 h1 {
     text-align: center;
     font-weight: 500;
-    background-color: rgb(223, 214, 214);
+    background-color: rgb(174, 192, 179);
     margin: -8px;
     padding: 20px;
 }
