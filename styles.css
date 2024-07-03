@@ -5,7 +5,8 @@ body {
 * {
     box-sizing: border-box;
 }
-#mango {
+
+.recipe {
     color: rgba(240, 243, 230);
     text-align: center;
     background-color: #bd5648;
@@ -13,26 +14,20 @@ body {
     display: inline-block;
     border: 1px dashed black;
     margin: 10px;
+    width: 160px;
+    height: 244px;
+    align-content: center;
+}
+#mango {
+background-color: ;
 }
 
 #avocado {
-    color: rgba(240, 243, 230);
-    text-align: center;
-    background-color: #bd5648;
-    padding: 100px 20px;
-    display: inline-block;
-    border: 1px dashed black;
-    margin: 10px;
+background-color: ;
 }
 
 #quinoa {
-    color: rgba(240, 243, 230);
-    text-align: center;
-    background-color:#bd5648 ;
-    padding: 100px 20px;
-    display: inline-block;
-    border: 1px dashed black;
-    margin: 10px;
+background-color: ;
 }
 
 ol {
@@ -46,6 +41,9 @@ ol {
     text-align: center;
     list-style-position: inside;
     justify-content: center;
+}
+li {
+    width: 210px;
 }
 
 h1 {
