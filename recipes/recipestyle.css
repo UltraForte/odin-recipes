@@ -1,21 +1,90 @@
 /*This is the CSS for the Recipe Pages*/
+html {
+    background-color: rgba(240, 243, 230);
+}
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
 }
+
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif,  ;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(174, 192, 179);
+    margin: -8px;
+    padding: 20px;
+    border-bottom: rgb(161, 152, 167) 4px solid;
+}
+.herobanner {
+    background-color: rgb(161, 152, 167);
+    margin: 24px;
+    margin-bottom: 0px;
+    padding: 18px;
+    border: solid 2px rgba(240, 243, 230);
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+
+}
+.bannertext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.secondtitle {
+    text-align: center;
+    background-color: rgba(174, 192, 179);
+    margin: 0px 24px;
+    padding: 18px;
+    border: solid 2px rgb(161, 152, 167);
+}
+
+.ingredients {
+    background-color: rgba(174, 192, 179);
+    margin: 0px 24px;
+    padding: 0px 18px;
+    border: solid 2px rgb(161, 152, 167);
+
+}
+.thewhat {
+    margin-top: 12px;
+
+}
+
+.instructions {
+    background-color: rgba(174, 192, 179);
+    margin: 24px;
+    padding: 0px 18px;
+    border: solid 2px rgb(161, 152, 167);
+    margin-top: 0;
+
+}
+.thehowto {
+    margin-top: 12px;
+
+}
+
+
 h1 {
     font-weight: 520;
     font-size: 40px;
+    margin: 0;
 }
 h2 {
     font-weight: 550;
     font-size: 25px;
+    margin: 0;
 }
 p {
-    font-size: 19px;
+    font-size: 20px;
+    margin: 0;
 }
 ul, ol {
-    font-size: 19px;
+    font-size: 20px;
 }
 .enjoy {
     font-size: 23px;
