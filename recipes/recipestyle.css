@@ -10,15 +10,32 @@ body {
 }
 
 .logo {
-    font-family: Georgia, 'Times New Roman', Times, serif,  ;
-    font-size: 2em;
-    text-align: center;
-    font-weight: 500;
+    display: flex;
     background-color: rgb(174, 192, 179);
     margin: -8px;
     padding: 20px;
     border-bottom: rgb(161, 152, 167) 4px solid;
+    justify-content: space-between;
+    align-items: center;
 }
+#logotext {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+
+}
+.leftlinks, .rightlinks {
+    display: flex;
+    color: black;
+    gap: 24px;
+}
+.homelink {
+    background-color: rgb(161, 152, 167);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
 .herobanner {
     background-color: rgb(161, 152, 167);
     margin: 24px;
@@ -115,4 +132,8 @@ ul, ol {
 img {
     height: auto;
     width: 210px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
