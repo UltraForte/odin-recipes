@@ -46,11 +46,33 @@ li {
     width: 210px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 500;
+
+                    /*Header CSS*/
+.logo {
+    display: flex;
     background-color: rgb(174, 192, 179);
     margin: -8px;
     padding: 20px;
-    border-bottom: #bd5648 2px solid;
+    border-bottom: #bd5648 4px solid;
+    justify-content: space-between;
+    align-items: center;
+}
+#logotext {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+
+}
+.leftlinks, .rightlinks {
+    display: flex;
+    gap: 24px;
+}
+.homelink {
+    background-color: #bd5648;
+    padding: 8px;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
 }
