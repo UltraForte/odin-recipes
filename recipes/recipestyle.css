@@ -22,19 +22,36 @@ body {
 .herobanner {
     background-color: rgb(161, 152, 167);
     margin: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 18px;
     padding: 18px;
     border: solid 2px rgba(240, 243, 230);
     display: flex;
     gap: 18px;
-    margin-bottom: 18px;
-
 }
 .bannertext {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    height: 210px;
 }
+.details {
+    display: flex;
+    gap: 64px;
+    justify-content: start;
+    margin-top: 28px;
+}
+.detailtitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.detailnumber {
+    text-align: center;
+}
+
+
+
 .secondtitle {
     text-align: center;
     background-color: rgba(174, 192, 179);
@@ -42,6 +59,9 @@ body {
     padding: 18px;
     border: solid 2px rgb(161, 152, 167);
 }
+
+
+
 
                          /*Second Section*/
 .ingredients {
