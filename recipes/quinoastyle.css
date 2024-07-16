@@ -1,0 +1,139 @@
+/*This is the CSS for the Recipe Pages*/
+html {
+    background-color: rgba(240, 243, 230);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(174, 192, 179);
+    margin: -8px;
+    padding: 20px;
+    border-bottom: rgb(161, 152, 167) 4px solid;
+    justify-content: space-between;
+    align-items: center;
+}
+#logotext {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+
+}
+.leftlinks, .rightlinks {
+    display: flex;
+    color: black;
+    gap: 24px;
+}
+.homelink {
+    background-color: rgb(161, 152, 167);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+.herobanner {
+    background-color: rgb(161, 152, 167);
+    margin: 24px;
+    margin-bottom: 18px;
+    padding: 18px;
+    border: solid 2px rgba(240, 243, 230);
+    display: flex;
+    gap: 18px;
+}
+.bannertext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 210px;
+}
+.details {
+    display: flex;
+    gap: 64px;
+    justify-content: start;
+    margin-top: 28px;
+}
+.detailtitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.detailnumber {
+    text-align: center;
+}
+
+
+
+.secondtitle {
+    text-align: center;
+    background-color: rgba(174, 192, 179);
+    margin: 0px 24px;
+    padding: 18px;
+    border: solid 2px rgb(161, 152, 167);
+}
+
+
+
+
+                         /*Second Section*/
+.ingredients {
+    background-color: rgba(174, 192, 179);
+    margin: 0px 24px;
+    padding: 0px 18px;
+    border: solid rgb(161, 152, 167);
+    border-width: 1px 2px;
+
+}
+.thewhat {
+    margin-top: 12px;
+
+}
+
+.instructions {
+    background-color: rgba(174, 192, 179);
+    margin: 24px;
+    padding: 0px 18px;
+    border: solid rgb(161, 152, 167);
+    border-width: 1px 2px;
+    margin-top: 0;
+
+}
+.thehowto {
+    margin-top: 12px;
+
+}
+
+
+h1 {
+    font-weight: 520;
+    font-size: 40px;
+    margin: 0;
+}
+h2 {
+    font-weight: 550;
+    font-size: 25px;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+    margin: 0;
+}
+ul, ol {
+    font-size: 20px;
+}
+.enjoy {
+    font-size: 23px;
+}
+img {
+    height: auto;
+    width: 210px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
