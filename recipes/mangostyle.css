@@ -88,11 +88,11 @@ body {
     padding: 0px 18px;
     border: solid rgb(161, 152, 167);
     border-width: 1px 2px;
-
+    line-height: 1.4;
 }
 .thewhat {
     margin-top: 12px;
-
+    margin-bottom: -12px;
 }
 
 .instructions {
@@ -102,11 +102,11 @@ body {
     border: solid rgb(161, 152, 167);
     border-width: 1px 2px;
     margin-top: 0;
-
+    line-height: 1.4;
 }
 .thehowto {
     margin-top: 12px;
-
+    margin-bottom: -12px;
 }
 
 
