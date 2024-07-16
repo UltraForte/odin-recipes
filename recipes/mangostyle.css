@@ -74,7 +74,8 @@ body {
     background-color: rgba(174, 192, 179);
     margin: 0px 24px;
     padding: 18px;
-    border: solid 2px rgb(161, 152, 167);
+    border: solid rgb(161, 152, 167);
+    border-width: 1px 2px;
 }
 
 
