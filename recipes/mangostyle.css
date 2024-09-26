@@ -1,10 +1,36 @@
+/*Here are the fonts used:*/
+.playwrite-de-grund-grundFont {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.oswald-oswaldFont {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.caveat-caveatFont {
+    font-family: "Caveat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
 /*This is the CSS for the Recipe Pages*/
 html {
     background-color: rgba(240, 243, 230);
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Playwrite DE Grund", 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
 }
@@ -22,7 +48,7 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 2em;
-
+    font-family: "Caveat";
 }
 .leftlinks, .rightlinks {
     display: flex;
@@ -51,31 +77,43 @@ body {
     gap: 8px;
     height: 210px;
 }
+.bannertext h1 {
+    font-family: "Bebas Neue"
+}
+.bannertext p {
+    font-size: 18px;
+    margin-top: -14px;
+}
 .details {
     display: flex;
     gap: 64px;
     justify-content: start;
-    margin-top: 28px;
+    margin-top: 8px;
+}
+#preptimebox, #caloriesbox, #servingsbox {
+    background-color: rgb(146, 137, 153);
+    width: 95px;
+    height: 60px;
 }
 .detailtitle {
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: underline;
 }
 .detailnumber {
     text-align: center;
 }
 
-
-
 .secondtitle {
     text-align: center;
     background-color: rgba(174, 192, 179);
     margin: 0px 24px;
-    padding: 18px;
+    padding: 18px 8px;
     border: solid rgb(161, 152, 167);
     border-width: 1px 2px;
+    font-family: "Caveat";
+    font-size: 34px;
 }
 
 
@@ -83,6 +121,8 @@ body {
 
                          /*Second Section*/
 .ingredients {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(174, 192, 179);
     margin: 0px 24px;
     padding: 0px 18px;
@@ -93,7 +133,14 @@ body {
 .thewhat {
     margin-top: 12px;
     margin-bottom: -12px;
+    font-family: "Bebas Neue";
+    font-size: 30px;
 }
+img#flaxphoto {
+    align-self: center;
+    height: 160px;
+}
+
 
 .instructions {
     background-color: rgba(174, 192, 179);
@@ -107,6 +154,8 @@ body {
 .thehowto {
     margin-top: 12px;
     margin-bottom: -12px;
+    font-family: "Bebas Neue";
+    font-size: 30px;
 }
 
 
@@ -128,13 +177,20 @@ ul, ol {
     font-size: 20px;
 }
 .enjoy {
-    font-size: 23px;
+    display: flex;
+    font-size: 42px;
+    font-family: "Caveat";
+    justify-content: center;
+    margin-left: -40px;
+    padding-top: 12px;
+    text-decoration: underline;
 }
-img {
+img#mangophoto {
     height: auto;
     width: 210px;
 }
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-weight: 500;
 }

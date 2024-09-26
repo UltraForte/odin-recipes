@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Mango Smoothie</title>
     <link rel="stylesheet" href="mangostyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
     <style>html {background-color: rgba(240, 243, 230);}</style>
 </head>
 <body>
@@ -21,7 +24,7 @@
 
 
     <div class="herobanner">
-        <img src="../images/mangosmoothie.jpeg" 
+        <img id="mangophoto" src="../images/mangosmoothie.jpeg" 
         alt="Mango Smoothie Photo">
         <div class="bannertext">
             <h1>Mango Smoothie</h1>
@@ -45,15 +48,20 @@
         </div>
     </div>
 
-    <h2 class="secondtitle">A Piece of Paradise That Will Leave You Wanting More</h2>
+    <h2 class="secondtitle">A Piece of Paradise That Will Leave You Wanting More...</h2>
         
-    <div class="ingredients"><h2 class="thewhat">Here's what you will need:</h2>
-        <ul>
-            <li><strong>1</strong> Ripe Mango</li>
-            <li><strong>100g</strong> Blueberries</li>
-            <li><strong>0.5 cups</strong> of Whole Milk</li>
-            <li><strong>2 tbsp</strong> Golden Flax Seeds</li>
-        </ul>
+    <div class="ingredients">
+        <div class="ingredientsTextBox">
+        <h2 class="thewhat">Here's what you will need:</h2>
+            <ul>
+                <li><strong>1</strong> Ripe Mango</li>
+                <li><strong>100g</strong> Blueberries</li>
+                <li><strong>0.5 cups</strong> of Whole Milk</li>
+                <li><strong>2 tbsp</strong> Golden Flax Seeds</li>
+            </ul>
+        </div>
+        <img id="flaxphoto" src="../images/flaxseeds.jpeg"
+        alt="Golden Flax Seeds Photo">
     </div>
     <div class="instructions">
     <h2 class="thehowto">Here's the how-to:</h2>
@@ -66,7 +74,7 @@
             <li>Grind the flax seeds into powder</li>
             <li>Pour the smoothie into a glass, sprinkle 
                 with flax seed powder</li>
-            <li><strong class="enjoy">Enjoy!</strong></li>
+            <p><strong class="enjoy">Enjoy!</strong></p>
         </ol>
     </div>
 </body>
