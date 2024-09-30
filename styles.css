@@ -1,34 +1,130 @@
+/*Here are the fonts used:*/
+.playwrite-de-grund-grundFont {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.oswald-oswaldFont {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.caveat-caveatFont {
+    font-family: "Caveat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 /*This is CSS for index.html, the main home page*/
 body {
     background-color: rgba(240, 243, 230);
 }
-* {
-    box-sizing: border-box;
-}
 
 .recipe {
-    color: rgba(240, 243, 230);
-    text-align: center;
+    color: rgba(240, 243, 230, 0.925);
     background-color: #bd5648;
-    padding: 100px 20px;
-    display: inline-block;
-    border: 1px dashed black;
-    margin: 10px;
+    display: flex;
+
+}
+.recipediv {
+    display: flex;
+    margin-top: 8px;
+    background-color: rgb(174, 192, 179);
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.mangodiv {
     width: 160px;
-    height: 244px;
-    align-content: center;
+    height: 230px;
+    margin: 12px 0px;
 }
-#mango {
-background-color: ;
+#mangotext {
+    position: absolute;
+    margin-top: 0px;
+    font-family: "Bebas Neue";
+    font-size: 29px;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 160px;
+    text-align: center;
+}
+.avocadodiv {
+    width: 160px;
+    height: 230px;
+    margin: 12px 0px;
+}
+#avocadotext {
+    position: absolute;
+    margin-top: 0px;
+    font-family: "Bebas Neue";
+    font-size: 29px;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 160px;
+    text-align: center;
+}
+.quinoadiv {
+    width: 160px;
+    height: 230px;
+    margin: 12px 0px;
+}
+#quinoatext {
+    position: absolute;
+    margin-top: 0px;
+    font-family: "Bebas Neue";
+    font-size: 29px;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 160px;
+    text-align: center;
 }
 
-#avocado {
-background-color: ;
+
+.sectiontwo {
+    display: flex;
+    background-color: rgb(224, 228, 214);
+    height: 240px;
+    margin: 0px -12px;
+    justify-content: space-around;
+    align-items: center;
+}
+.feasttext {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.feasttitle {
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+.feastsmalltext {
+    font-family: "Playwrite DE Grund";
+    font-size: 15px;
 }
 
-#quinoa {
-background-color: ;
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(174, 192, 179);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
+.footer p {
+    color: rgba(240, 243, 230, 0.925);
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+    margin-top: 8px;
+}
+
 
 ol {
     font-size: 18px;
@@ -57,15 +153,17 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-#logotext {
+.logotext {
     text-align: center;
     font-weight: 500;
     font-size: 2em;
-
+    font-family: "Caveat";
+    text-decoration: underline;
 }
 .leftlinks, .rightlinks {
     display: flex;
     gap: 24px;
+    font-family: "Playwrite DE Grund";
 }
 .homelink {
     background-color: #bd5648;
