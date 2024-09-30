@@ -49,6 +49,7 @@ body {
     font-weight: 500;
     font-size: 2em;
     font-family: "Caveat";
+    text-decoration: underline;
 }
 .leftlinks, .rightlinks {
     display: flex;
@@ -149,6 +150,7 @@ img#flaxphoto {
     border: solid rgb(161, 152, 167);
     border-width: 1px 2px;
     margin-top: 0;
+    margin-bottom: 0px;
     line-height: 1.4;
 }
 .thehowto {
@@ -156,6 +158,14 @@ img#flaxphoto {
     margin-bottom: -12px;
     font-family: "Bebas Neue";
     font-size: 30px;
+}
+.enjoydiv {
+    background-color: rgb(161, 152, 167);
+    margin: 24px;
+    border: solid rgb(161, 152, 167);
+    border-width: 1px 2px;
+    margin-top: 18px;
+    justify-content: center;
 }
 
 
@@ -181,9 +191,9 @@ ul, ol {
     font-size: 42px;
     font-family: "Caveat";
     justify-content: center;
-    margin-left: -40px;
-    padding-top: 12px;
+    align-items: center;
     text-decoration: underline;
+    padding-bottom: 4px;
 }
 img#mangophoto {
     height: auto;
